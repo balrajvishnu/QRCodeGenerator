@@ -1,0 +1,81 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    color: #fff;
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Input Field Styling */
+input {
+    padding: 12px;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* QR Code Container */
+#qr-code {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+a {
+    color: #74b9ff;
+    text-decoration: none;
+}
